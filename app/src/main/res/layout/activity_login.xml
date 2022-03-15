@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/activity_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:weightSum="1"
+        tools:context="com.example.yo7a.healthwatcher.Login">
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edtu"
+            android:layout_width="375dp"
+            android:layout_height="42dp"
+            android:background="@drawable/textinputborder"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:text="Username*"
+            android:textColor="@android:color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edtn"
+            android:layout_width="379dp"
+            android:layout_height="43dp"
+            android:background="@drawable/textinputborder"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingLeft="15dp"
+            android:text="Name*"
+            android:textColor="@android:color/black" />
+
+        <Space
+            android:layout_width="378dp"
+            android:layout_height="13dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edtp"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:background="@drawable/textinputborder"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="Password*"
+            android:textColorHint="@color/colorBackground"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColor="@android:color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edtpc"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:hint="Confirm Password*"
+            android:textColorHint="@color/colorBackground"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:drawablePadding="10dp"
+            android:background="@drawable/textinputborder"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColor="@android:color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0.15" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edte"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:drawablePadding="10dp"
+            android:background="@drawable/textinputborder"
+            android:ems="10"
+            android:text="Email*"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColor="@android:color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0.15" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edta"
+            android:layout_width="match_parent"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:drawablePadding="10dp"
+            android:layout_height="35dp"
+            android:background="@drawable/textinputborder"
+            android:ems="10"
+            android:text="Age*"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:textColor="@android:color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0.15" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edth"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:text="Height*"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:drawablePadding="10dp"
+            android:background="@drawable/textinputborder"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:textColor="@android:color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp" />
+
+        <EditText
+            android:id="@+id/edtw"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Weight*"
+            android:background="@drawable/textinputborder"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:drawablePadding="10dp"
+
+            android:textColor="@android:color/black" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0.15" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gender*"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0.15" />
+
+        <Spinner
+            android:id="@+id/SGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorText" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_weight="0.15" />
+
+        <ImageButton
+            android:id="@+id/Login"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="@android:color/transparent"
+            app:srcCompat="@mipmap/enter" />
+
+
+    </LinearLayout>
+</ScrollView>
