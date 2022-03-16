@@ -2,6 +2,10 @@ package com.example.yo7a.healthwatcher;
 
 import android.content.Intent;
 import android.os.Bundle;
+<<<<<<< HEAD
+=======
+import android.widget.Button;
+>>>>>>> c5551b9 (Primary)
 import android.widget.ImageButton;
 
 import androidx.appcompat.app.AlertDialog;
@@ -17,12 +21,21 @@ public class Primary extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_primary);
 
+<<<<<<< HEAD
         ImageButton HeartRate = this.findViewById(R.id.HR);
         ImageButton BloodPressure = this.findViewById(R.id.BP);
         ImageButton Ox2 = this.findViewById(R.id.O2);
         ImageButton RRate = this.findViewById(R.id.RR);
         ImageButton VitalSigns = this.findViewById(R.id.VS);
         ImageButton Abt = this.findViewById(R.id.About);
+=======
+        Button HeartRate = this.findViewById(R.id.HR);
+        Button BloodPressure = this.findViewById(R.id.BP);
+        Button Ox2 = this.findViewById(R.id.O2);
+        Button RRate = this.findViewById(R.id.RR);
+        Button VitalSigns = this.findViewById(R.id.VS);
+        Button Abt = this.findViewById(R.id.About);
+>>>>>>> c5551b9 (Primary)
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {

@@ -18,6 +18,20 @@
         <entry key="..\:/Users/Amar Mohanta/Desktop/Android Studio/HealthWatcher-master/HealthWatcher-master/app/src/main/res/layout/activity_respiration_process.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/Amar Mohanta/Desktop/Android Studio/HealthWatcher-master/HealthWatcher-master/app/src/main/res/layout/activity_vital_signs_process.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/Amar Mohanta/Desktop/Android Studio/HealthWatcher-master/HealthWatcher-master/app/src/main/res/layout/activity_vital_signs_results.xml" value="0.15729166666666666" />
+<<<<<<< HEAD
+=======
+        <entry key="..\:/Users/prase/Downloads/Hackathon_App-main/Hackathon_App-main/app/src/main/res/drawable/circular_progressbar.xml" value="0.1575" />
+        <entry key="..\:/Users/prase/Downloads/Hackathon_App-main/Hackathon_App-main/app/src/main/res/drawable/username.xml" value="0.1575" />
+        <entry key="..\:/Users/prase/Downloads/Hackathon_App-main/Hackathon_App-main/app/src/main/res/layout/activity_about_app.xml" value="0.264" />
+        <entry key="..\:/Users/prase/Downloads/Hackathon_App-main/Hackathon_App-main/app/src/main/res/layout/activity_first.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/prase/Downloads/Hackathon_App-main/Hackathon_App-main/app/src/main/res/layout/activity_heart_rate_process.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/prase/Downloads/Hackathon_App-main/Hackathon_App-main/app/src/main/res/layout/activity_heart_rate_result.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/prase/Downloads/Hackathon_App-main/Hackathon_App-main/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/prase/Downloads/Hackathon_App-main/Hackathon_App-main/app/src/main/res/layout/activity_primary.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/prase/Downloads/Hackathon_App-main/Hackathon_App-main/app/src/main/res/layout/activity_respiration_result.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/prase/Downloads/Hackathon_App-main/Hackathon_App-main/app/src/main/res/layout/activity_start_vital_signs.xml" value="0.2" />
+        <entry key="..\:/Users/prase/Downloads/Hackathon_App-main/Hackathon_App-main/app/src/main/res/layout/activity_test.xml" value="0.25416666666666665" />
+>>>>>>> c5551b9 (Primary)
       </map>
     </option>
   </component>

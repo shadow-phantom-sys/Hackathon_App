@@ -27,8 +27,13 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+<<<<<<< HEAD
         android:layout_marginTop="89dp"
         android:fontFamily="cursive"
+=======
+        android:layout_marginTop="50dp"
+        android:fontFamily="serif"
+>>>>>>> c5551b9 (Primary)
         android:text="C.V Raman Global University Hackathon 2022"
         android:textAlignment="center"
         android:textColor="@color/colorPrimaryDark"

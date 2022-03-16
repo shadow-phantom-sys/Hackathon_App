@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/HealthWatcher-master.iml" filepath="$PROJECT_DIR$/.idea/modules/HealthWatcher-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HealthWatcher-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HealthWatcher-master.app.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Hackathon_App-main.iml" filepath="$PROJECT_DIR$/.idea/modules/Hackathon_App-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Hackathon_App-main.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Hackathon_App-main.app.iml" />
+>>>>>>> c5551b9 (Primary)
     </modules>
   </component>
 </project>
